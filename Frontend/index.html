@@ -5,146 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="CSS//style.css" />
-<<<<<<< HEAD
-    <link rel="stylesheet" type="text/css" href="./CSS/canvas.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
-
-    <title>GeoUK Home</title>
-</head>
-
-<style>
-    .navbar {
-        margin: auto;
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #000080;
-      }
-      
-      .navbar a {
-        float: none;
-        font-size: 16px;
-        color: white;
-        text-decoration: none;
-      }
-      
-      .dropdown {
-        float: left;
-        overflow: hidden;
-      }
-      
-      .dropdown .dropbtn {
-        font-size: 16px;  
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-      
-      .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: #1ba098;
-      }
-      
-      .dropdown-menu a {
-        padding-bottom: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-top: 0px;
-      }
-      
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      
-      .dropdown-content a {
-        float: none;
-        color: #000080;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-      }
-      
-      .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-      
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      </style>
-
-<body>
-    <div class="container">
-        <div id="title">GeoUk</div>
-        <main id="canvas-parent">
-            <script type="module" src="../Canvas/src/app.js"></script>
-            <div id = "canvas-label-wrapper">
-                <div id = "canvas-label-select-bar"></div>
-            </div>
-        </main>
-        <div id="sidebar">Sidebar</div>
-        <div id="content1">Content1</div>
-        <div id="content2">Content2</div>
-        <div id="content3">Content3</div>
-        <div id="content4">Content4</div>
-        <footer>Footer</footer>
-=======
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>GeoUK Home</title>
 </head>
+<body>
+    <div class="container">
+        <div id="title">GeoUk</div>
+        <main>Main</main>
+        <div id="sidebar">Sidebar</div>
+        <div id="content1">Content1</div>
+        <div id="content2">Content2</div>
+        <div id="content3">Content3</div>
+        <div id="content4">Content4</div>
 
-<body class="dark-mode">
-    <div class="container dark-mode">
-        <div id="title" class="dark-mode">
-            <div id="GeoUk">
-                GeoUK
-            </div>
-        </div>
-        <main class="dark-mode"> Main </main>
-        <div id="sidebar" class="dark-mode">Sidebar</div>
-        <div id="content1" class="dark-mode">Content1</div>
-        <div id="content2" class="dark-mode">Content2</div>
-        <div id="content3" class="dark-mode">Content3</div>
-        <div id="content4" class="dark-mode">Content4</div>
-        <footer class="dark-mode" ><!--style="overflow-x: hidden;"-->
-            <!--The menu in the footer to take the users to the other sections-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                    <button class="navbar-toggle" type="button" data-toggler="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggle-icon""></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Terms &Aacute; Conditions</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+        <footer>
             <nav class="navbar fixed-bottom navbar-invert-md bg-light navbar-light">
                 <a style="color:#051622;" class="navbar-brand" href="file:///C:/Users/tutia/OneDrive/Desktop/Y2%20Computer%20Science/term%202/CMP2804M%20Team%20Software%20Engineering/Assessment%203/TSE-Group-2/Frontend/website%20info.html">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -170,39 +47,16 @@
                     </li>
                     <li class="nav-item">
                       <a style="color:#051622;" class="nav-link print" href="javascript:if(window.print)window.print()"><span>&#128438;</span>&nbsp;Print</a>
-                    </li>
+                    </li>    
                     <li class="nav-item">
-                      <a style="color:#051622;"><span>&#128197;</span>&nbsp;Date : <span id="datetime">19/02/2023</span>
-                      <script>var dt = new Date(); document.getElementById("datetime").innerHTML = dt.toLocaleDateString();</script></a>
+                      <a style="color:#051622;"><span>&#128197;</span>&nbsp;Date : <span id="datetime">19/02/2023</span><script>var dt = new Date();document.getElementById("datetime").innerHTML = dt.toLocaleDateString();</script></a>
                     </li>
                   </ul>
-                </div>
+                </div> 
             </nav>
-            <!--darkmode button-->
-            <div class="button-box">
-                <div class="sun" id="sun">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                    <div class="line4"></div>
-                </div>
-            </div>
+        </footer>
 
-       </footer>
->>>>>>> 444b24bbd2706c6887a3fa23625f73ae43a5dd4b
     </div>
-                <!--Move to JS-->
-            <script>
-                let sun = document.getElementById("sun");
-                let elements = document.querySelectorAll(".dark-mode");
-
-                sun.onclick = function () {
-                    sun.classList.toggle("night");
-                    document.body.classList.toggle("dark-mode");
-                    elements.forEach(element => element.classList.toggle("dark-mode"));
-                    /*This JS code uses the QuerySelectorAll to iterate through darkmode and light mode using a foreach method.*/
-                }
-            </script>
 </body>
 
 </html>
