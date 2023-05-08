@@ -391,7 +391,6 @@ footer.dark-mode {
     justify-content: center;
     overflow: hidden;
 }
-/** Tarteels CSS attributes */
 .navbar {
     margin: auto;
     overflow: hidden;
@@ -399,65 +398,65 @@ footer.dark-mode {
     bottom: 0;
     width: 100%;
     background-color: #000080;
-}
-
-    .navbar a {
-        float: none;
-        font-size: 16px;
-        color: white;
-        text-decoration: none;
-    }
-
-.dropdown {
+  }
+  
+  .navbar a {
+    float: none;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown {
     float: left;
     overflow: hidden;
-}
-
-    .dropdown .dropbtn {
-        font-size: 16px;
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-    }
-
-    .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: #1ba098;
-    }
-
-.dropdown-menu a {
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #1ba098;
+  }
+  
+  .dropdown-menu a {
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0px;
-}
-
-.dropdown-content {
+  }
+  
+  .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
-
-    .dropdown-content a {
-        float: none;
-        color: #000080;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
-
-.dropdown:hover .dropdown-content {
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #000080;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
-}
->>>>>>> 444b24bbd2706c6887a3fa23625f73ae43a5dd4b
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
